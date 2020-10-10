@@ -1,0 +1,27 @@
+body{
+	margin: 5px;
+}
+.container{
+	display: flex;/*In this line we've activated the FlexBox*/
+	flex-wrap: wrap;/*This line will reverse the order of our images on web page.We can have "wrap" and "wrap-reverse"*/ 
+	justify-content:center;	
+}
+h1{
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid black;
+	text-align:center; 
+	width: 400px; /*This line defines the width of border which only covers our h1 content.*/
+	color: grey;
+	box-shadow: 4px 4px 5px #88888888;
+	margin-top: 2px; 
+}
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 0.5s;
+}
+img:hover{
+	transform: scale(1.1);
+}
