@@ -5,7 +5,7 @@
 body{
 	margin: 5px;
 }
-.container{
+.container1, .container2{
 	display: flex;/*In this line we've activated the FlexBox*/
 	flex-wrap: wrap;/*This line will reverse the order of our images on web page.We can have "wrap" and "wrap-reverse"*/ 
 	justify-content:center;	
